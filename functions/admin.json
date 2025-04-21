@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "renta-control",
+  "private_key_id": "a8c392fe11aaed9a5169c03994d723d8144d97a3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7mZO7uPYyUo+V\nQdeM8IxWAHpu/btWjIEJu9urUHBuQwSuxj3dtWDovNEtsRR7HDvW3eRjBGMgiQET\n1sjtXKG9lEngqw5C9ZxX0FpPU87qQoMJ689BHBaEP727sYv77NXbei0JocXvOfiY\n4fX/iinfvvTH6kk4iJyocATZ/eYYRnAz8StC9is+GWr6gIGx0utzC6Hnemw5odDo\naCNVqZuYeYEjRwKDEyD01mx2M6LU8LG6t4lfeNxDEFW774vomIbmiC18dVFiBAZV\nmjj4WQo6UvZXEGPHsBsYTiiFwKEkCCSrEDnCR6HuROkseDzZj3ACwLY+svLvAc0a\n0jPQcOaLAgMBAAECggEACszbqXoLinggVgp1W2LZ4XWjltI6v8/U+fd7vRAjeOWY\n1msJUsNHcf602DmSoUfN1h/uLxkoj83zZu39oVSs5xoraqjOaGJ1fsS6/kgn6Gqt\n2ptd0jTIwxJcXPrqwTUwVrNg9mX+3DftLPgNTonowT3gH8ZIMt4CjtvsG5S3c3w5\nUq9StQIcIsIMoftHbcF/yY1ysYG9P+Ug/AuxeuS4BJ5RZyuQf4fb3an59Gy4HRml\nar9+8iBwX68LJeguI51NzHhuI8RVLEMm4UbX7MnGqGks3oHMj4ObDoW52fFwOiZv\n1TEJJoenxDXXas//CGtpKkRP4+JYDina6xxDYjL/wQKBgQDvUZQMmbPnIUj5/cU3\nBdU33ujAE12FVOKXZFHJuOLs/SgSYbtt8RVwbGZjph5BSIeSOgxgAhqtc5Nv6FIU\n0tB2QNROzubLPPsQ8w6o/cSNczA//uiOoQ1e6O8Djz5kJvCZZ8yrawH9GdISzGti\nO2HGokjRKJKpdrVOBDuUmW474QKBgQDIrSAHGDT1JL18C3YOaxAetgupG80xsItT\nwyRtYov/U3EMrc2Ntf7Q7haiILZJM9BsnzUN+o0rV3/2YrCHLfldRAzZKy8P+f7o\nMV9PaP48cWJE63tIvzhf5k+3iuDPcB8TmYLE/XN9nxOrHCvwpB59xVRl/TWHP095\n7xZIeHXP6wKBgQDNLtdNOla5Optz4rS8qR6WyWIqlC/hidbAT/2jgwXkhGRf5jUp\nXMKx4e6jTyCvfjzmDSjhA8zVm7rz/m6pddnPGWQtsUzFQaJMdOfD0dc8I19h7u56\novBwyCtslNq8SXqNPCaJbbSFySaIgYUr8pexEyB1W2DrNGDb49slW6rcYQKBgQCe\nJpqEHNa3j/HpTZsHt+anXW8JIkjvbSQQqk0OC8krOtZwWJUTpqegftLFiSQ/wp7y\ny/HjB1+0FaxaP+LBVkEc+KFrkTXw0GPNGAP2MFeUyQLaL/8kENdb9MVEcCXGNaW4\nK5Y8q0YWbYTxqC0U5DLHifl+uzQxV3rKLNuR16V5awKBgA+rLEL/TXkzFgsI9UZ+\nGCZ05riAtsrzbXGT+IgoPc9Vby/rqa/hKRzuRIrc/Ty5YzBo90Kxs1nXtE7k6QLO\nokEA/mTDhZJZRfth0/Kc5Hwt/fSIpd/qJbNp3um4N4auGW8fajZfawq78ZcnlTFe\nZHxqy2wYv7YhQrd5MDLQwEos\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@renta-control.iam.gserviceaccount.com",
+  "client_id": "110998274330011281489",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40renta-control.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
