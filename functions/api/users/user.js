@@ -18,6 +18,7 @@ router.post("/", async (req, res) => {
     await firestore.collection("users").doc(userRecord.uid).set({
       name,
       email,
+      password,
       disabled: false,
       createdAt: new Date().toISOString(),
       updatedAt: '',
@@ -74,6 +75,7 @@ router.put("/:uid", async (req, res) => {
         }
       }
       firestoreUpdatePayload.updatedAt = new Date().toISOString();
+      firestoreUpdatePayload.password = password;
       await firestore
         .collection("users")
         .doc(uid)
@@ -86,5 +88,24 @@ router.put("/:uid", async (req, res) => {
     res.status(500).json({ error: "Failed to update user" });
   }
 });
+
+// Middleware to delete a user
+router.delete("/:uid", async (req, res) => {
+  const { uid } = req.params;
+
+  try {
+    // Eliminar el usuario de Firebase Authentication
+    await admin.auth().deleteUser(uid);
+
+    // Eliminar el documento del usuario en Firestore
+    await firestore.collection("users").doc(uid).delete();
+
+    res.status(200).json({ message: "Usuario eliminado correctamente" });
+  } catch (error) {
+    console.error("Error al eliminar el usuario:", error);
+    res.status(500).json({ error: "No se pudo eliminar el usuario" });
+  }
+});
+
 
 module.exports = router;
